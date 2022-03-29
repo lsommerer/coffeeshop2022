@@ -3,7 +3,7 @@ from toolbox import is_number
 
 class Product(object):
 
-    types = ['coffee', 'tea']
+    types = ['coffee', 'tea', 'mugs']
 
     def __init__(self, name, type, price):
         self._name = str(name).strip()
